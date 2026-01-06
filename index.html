@@ -15,39 +15,72 @@
     <!-- SIDEBAR -->
     <aside class="sidebar">
       <div class="branding">
+        <img src="Assets/dashboard.svg" alt="" class="icon">
         <h1>Dashboard</h1>
       </div>
 
       <nav class="nav primary">
-        <a href="#">Home</a>
-        <a href="#">Profile</a>
-        <a href="#">Messages</a>
-        <a href="#">History</a>
-        <a href="#">Tasks</a>
-        <a href="#">Communities</a>
+        <a href="#">
+          <img src="Assets/home.svg" alt="" class="icon">
+          <span>Home</span>
+        </a>
+        <a href="#">
+          <img src="Assets/profile.svg" alt="" class="icon">
+          <span>Profile</span>
+        </a>
+        <a href="#">
+          <img src="Assets/message.svg" alt="" class="icon">
+          <span>Messages</span>
+        </a>
+        <a href="#">
+          <img src="Assets/history.svg" alt="" class="icon">
+          <span>History</span>
+        </a>
+        <a href="#">
+          <img src="Assets/tasks.svg" alt="" class="icon">
+          <span>Tasks</span>
+        </a>
+        <a href="#">
+          <img src="Assets/communities.svg" alt="" class="icon">
+          <span>Communities</span>
+        </a>
       </nav>
 
       <nav class="nav secondary">
-        <a href="#">Settings</a>
-        <a href="#">Support</a>
-        <a href="#">Privacy</a>
+        <a href="#">
+          <img src="Assets/settings.svg" alt="" class="icon">
+          <span>Settings</span>
+        </a>
+        <a href="#">
+          <img src="Assets/support.svg" alt="" class="icon">
+          <span>Support</span>
+        </a>
+        <a href="#">
+          <img src="Assets/privacy.svg" alt="" class="icon">
+          <span>Privacy</span>
+        </a>
       </nav>
     </aside>
 
     <!-- HEADER -->
     <header class="header">
       <div class="search">
+        <img src="Assets/search.svg" alt="" class="icon">
         <input type="text" placeholder="Search..." />
       </div>
 
       <div class="user-info">
-        <img src="assets/avatar.png" alt="User avatar">
-        <span>Morgan Oakley</span>
+        <img src="Assets/bell.svg" alt="" class="icon bell-icon">
+        <img src="Assets/avatar-morgan.svg" alt="Vansh Vaishnani" class="avatar small">
+        <span class="username">Vansh Vaishnani</span>
       </div>
 
       <div class="welcome">
-        <p>Hi there,</p>
-        <h2>Morgan Oakley (@morgan)</h2>
+        <img src="Assets/avatar-morgan.svg" alt="Vansh Vaishnani" class="avatar large">
+        <div class="greeting">
+          <p>Hi there,</p>
+          <h2>Vansh Vaishnani (@vansh)</h2>
+        </div>
       </div>
 
       <div class="actions">
@@ -65,12 +98,65 @@
         <h3>Your Projects</h3>
 
         <div class="project-grid">
-          <div class="card">Project One</div>
-          <div class="card">Project Two</div>
-          <div class="card">Project Three</div>
-          <div class="card">Project Four</div>
-          <div class="card">Project Five</div>
-          <div class="card">Project Six</div>
+          <div class="card">
+            <h4>Super Cool Project</h4>
+            <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+            <div class="icons">
+              <img src="Assets/star.svg" alt="" class="icon">
+              <img src="Assets/eye.svg" alt="" class="icon">
+              <img src="Assets/share.svg" alt="" class="icon">
+            </div>
+          </div>
+
+          <div class="card">
+            <h4>Less Cool Project</h4>
+            <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+            <div class="icons">
+              <img src="Assets/star.svg" alt="" class="icon">
+              <img src="Assets/eye.svg" alt="" class="icon">
+              <img src="Assets/share.svg" alt="" class="icon">
+            </div>
+          </div>
+
+          <div class="card">
+            <h4>Impossible App</h4>
+            <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+            <div class="icons">
+              <img src="Assets/star.svg" alt="" class="icon">
+              <img src="Assets/eye.svg" alt="" class="icon">
+              <img src="Assets/share.svg" alt="" class="icon">
+            </div>
+          </div>
+
+          <div class="card">
+            <h4>Easy Peasy App</h4>
+            <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+            <div class="icons">
+              <img src="Assets/star.svg" alt="" class="icon">
+              <img src="Assets/eye.svg" alt="" class="icon">
+              <img src="Assets/share.svg" alt="" class="icon">
+            </div>
+          </div>
+
+          <div class="card">
+            <h4>Ad Blocker</h4>
+            <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+            <div class="icons">
+              <img src="Assets/star.svg" alt="" class="icon">
+              <img src="Assets/eye.svg" alt="" class="icon">
+              <img src="Assets/share.svg" alt="" class="icon">
+            </div>
+          </div>
+
+          <div class="card">
+            <h4>Money Maker</h4>
+            <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+            <div class="icons">
+              <img src="Assets/star.svg" alt="" class="icon">
+              <img src="Assets/eye.svg" alt="" class="icon">
+              <img src="Assets/share.svg" alt="" class="icon">
+            </div>
+          </div>
         </div>
       </section>
 
@@ -78,11 +164,20 @@
       <section class="announcements">
         <h3>Announcements</h3>
         <div class="panel">
-          <p><strong>Site Maintenance</strong></p>
-          <p>Scheduled maintenance this weekend.</p>
+          <div class="item">
+            <h4>Site Maintenance</h4>
+            <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+          </div>
           <hr>
-          <p><strong>Community Share Day</strong></p>
-          <p>Join us for collaboration.</p>
+          <div class="item">
+            <h4>Community Share Day</h4>
+            <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+          </div>
+          <hr>
+          <div class="item">
+            <h4>Updated Privacy Policy</h4>
+            <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+          </div>
         </div>
       </section>
 
@@ -90,9 +185,34 @@
       <section class="trending">
         <h3>Trending</h3>
         <div class="panel">
-          <p>@tegan – World Builder</p>
-          <p>@alex – Super Cool Project</p>
-          <p>@kendall – Life Changing App</p>
+          <div class="trending-item">
+            <img src="Assets/avatar-tegan.svg" alt="@tegan" class="avatar small">
+            <div>
+              <p class="handle">@tegan</p>
+              <p class="project">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <img src="Assets/avatar-morgan.svg" alt="@morgan" class="avatar small">
+            <div>
+              <p class="handle">@morgan</p>
+              <p class="project">Super Cool Project</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <img src="Assets/avatar-kendall.svg" alt="@kendall" class="avatar small">
+            <div>
+              <p class="handle">@kendall</p>
+              <p class="project">Life Changing App</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <img src="Assets/avatar-alex.svg" alt="@alex" class="avatar small">
+            <div>
+              <p class="handle">@alex</p>
+              <p class="project">No Traffic Maker</p>
+            </div>
+          </div>
         </div>
       </section>
 
