@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="dashboard">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="branding">
+        <h1>Dashboard</h1>
+      </div>
+
+      <nav class="nav primary">
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Messages</a>
+        <a href="#">History</a>
+        <a href="#">Tasks</a>
+        <a href="#">Communities</a>
+      </nav>
+
+      <nav class="nav secondary">
+        <a href="#">Settings</a>
+        <a href="#">Support</a>
+        <a href="#">Privacy</a>
+      </nav>
+    </aside>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="search">
+        <input type="text" placeholder="Search..." />
+      </div>
+
+      <div class="user-info">
+        <img src="assets/avatar.png" alt="User avatar">
+        <span>Morgan Oakley</span>
+      </div>
+
+      <div class="welcome">
+        <p>Hi there,</p>
+        <h2>Morgan Oakley (@morgan)</h2>
+      </div>
+
+      <div class="actions">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+
+      <!-- PROJECTS -->
+      <section class="projects">
+        <h3>Your Projects</h3>
+
+        <div class="project-grid">
+          <div class="card">Project One</div>
+          <div class="card">Project Two</div>
+          <div class="card">Project Three</div>
+          <div class="card">Project Four</div>
+          <div class="card">Project Five</div>
+          <div class="card">Project Six</div>
+        </div>
+      </section>
+
+      <!-- ANNOUNCEMENTS -->
+      <section class="announcements">
+        <h3>Announcements</h3>
+        <div class="panel">
+          <p><strong>Site Maintenance</strong></p>
+          <p>Scheduled maintenance this weekend.</p>
+          <hr>
+          <p><strong>Community Share Day</strong></p>
+          <p>Join us for collaboration.</p>
+        </div>
+      </section>
+
+      <!-- TRENDING -->
+      <section class="trending">
+        <h3>Trending</h3>
+        <div class="panel">
+          <p>@tegan – World Builder</p>
+          <p>@alex – Super Cool Project</p>
+          <p>@kendall – Life Changing App</p>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+</body>
+</html>
